@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tus Guias De Viajes</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="perfil">Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="novedades">Novedades</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="salir">Salir</string>
+    <string name="email">Email</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="restablecer">Restablecer</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="descargar">Descargar guia aquí</string>
+    <string name="modificar">Modificar datos</string>
+    <string name="eliminarCuenta">Eliminar Perfil</string>
+    <string name="datosPerfil">Datos del Perfil</string>
+    <string name="modificarDatosPerfil">Modificar datos</string>
+    <string name="descubreNuestrasOfertas">Descubre nuestras nuevas ofertas</string>
+    <string name="descubreNuestrasNovedades">Descubre nuestras nuevas novedades</string>
+    <string name="descubreNuestrasGuias">Descubre nuestras Guías de viajes</string>
+    <string name="click_to_forgotPassword">¿Olvidaste la contraseña?</string>
+    <string name="click_to_login">Click para iniciar sesion</string>
+    <string name="click_to_register">Click para registrarse</string>
+    <string name="click_Modificar_Datos">Click para modificar el telefono</string>
+    <string name="introduceEmail">Introduce tu dirección de correo: </string>
+    <string name="Introduce_tu_destino">Introduce tu destino soñado: </string>
+    <string name="ConfirmacionEliminarPerfil">¿Esta seguro de eliminar su perfil?</string>
+    <string name="avisoEliminarPerfil">Esta accion sera definitiva</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <string name="destino">Destino:</string>
+    <string name="precio">Precio por 2 personas:</string>
+    <string name="descubreTuGuiaDeDisneyParis">Descubre tu guia de Disneyland</string>
+    <string name="descubreTuGuiaDeParis">Descubre tu guia de Paris</string>
+    <string name="descubreTuGuiaDeMarrakech">Descubre tu guia de MArrakech</string>
+    <string name="descubreTuGuiaDeLisboa">Descubre tu guia de Lisboa</string>
+
+    <string name="descripcion">Descripción de la guia:</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

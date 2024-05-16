@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003131933956",
+    "project_id": "app-tusguiasdeviajes",
+    "storage_bucket": "app-tusguiasdeviajes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003131933956:android:0ace325f1eeb7d3dfeac51",
+        "android_client_info": {
+          "package_name": "com.example.app_tusguiasdeviajes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmkVEjTL38Te6-Edf7WwSU-PbB4kVS62Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
