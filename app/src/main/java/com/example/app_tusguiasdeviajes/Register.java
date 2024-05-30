@@ -151,7 +151,7 @@ public class Register extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(Register.this, "Error al registrar", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Register.this, "El correo que has introducido ya esta registrado", Toast.LENGTH_SHORT).show();
             }
         });
     }

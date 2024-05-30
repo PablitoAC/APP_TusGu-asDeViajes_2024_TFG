@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
     Button buttonLogin;
     FirebaseAuth mAuth;
     ProgressBar progressBar;
-    TextView textView, forgotPassword;
+    TextView textView, forgotPassword, privacidad;
 
     @Override
     public void onStart() {
@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
         }
     }
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +52,7 @@ public class Login extends AppCompatActivity {
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.password);
         buttonLogin = findViewById(R.id.btn_login);
+        privacidad = findViewById(R.id.clickPoliticaPrivacidad);
         progressBar = findViewById(R.id.progressBar);
         textView = findViewById(R.id.registerNow);
         forgotPassword = findViewById(R.id.forgotPass);
@@ -64,6 +65,16 @@ public class Login extends AppCompatActivity {
                 finish();
             }
         });
+
+        privacidad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), PoliticasDeLaAPP.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
 
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
